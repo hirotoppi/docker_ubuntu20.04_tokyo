@@ -11,4 +11,7 @@ ENV TZ = Azia/Tokyo
 
 
 #nanoとかとか
-RUN apt-get update && apt-get install --yes --no-install-recommends nano
+RUN apt-get update && apt-get install --yes --no-install-recommends nano && \
+    apt-get install wget -y && \
+    apt-get install sudo -y && \
+    apt-get install curl -y
