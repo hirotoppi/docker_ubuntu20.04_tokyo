@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 
 #ユーザーを作成
 ARG DOCKER_UID=1000
-ARG DOCCKER_USER=developer
+ARG DOCKER_USER=developer
 ARG DOCKER_PASSWARD=developer
 
 #sudo権限付与
